@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#links a{
+    margin-top: 10px;
+    color:  grey;
+    font-weight: bold;
+}
+#links a:hover{
+    color: rgb(181, 164, 164);
+    text-decoration: none;
+}
+.dropdown ul{
+    position: absolute;
+    width: 800px;
+    height: 50vh;
+    list-style: none;
+    border: 2px solid rgb(172, 168, 168);
+    margin-left: -90px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 13px;
+    display: none;
+}
+.dropdown_2 ul{
+    position: absolute;
+    width: 600px;
+    height: 50vh;
+    list-style: none;
+    border: 2px solid rgb(172, 168, 168);
+    margin-left: -30px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 13px;
+    display: none;
+}
+.dropdown_4 ul{
+    position: absolute;
+    width: 400px;
+    height: 40vh;
+    list-style: none;
+    border: 2px solid rgb(172, 168, 168);
+    margin-left: -10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 13px;
+    display: none;
+}
+.flex_ul{
+    display: flex;
+    justify-content: space-around;
+}
+.app{
+    margin-top: 20px;
+}
+.partner_eco{
+    margin-top: 60px;
+}
+.dropdown ul li{
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    width: 260px;
+    padding: 10px;  
+}
+.nav-item:hover .dropdown ul{
+  display: block;
+}
+.nav-item:hover .dropdown_2 ul{
+    display: flex;
+}
+.nav-item:hover .dropdown_4 ul{
+    display: flex;
+}
+.grid_columns{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: auto;
+   /* background-color: red; */
+} 
+ 
+                    
+                 
