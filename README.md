@@ -1,1 +1,4 @@
 # stripe_clone Project
+
+
+.
