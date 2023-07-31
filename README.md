@@ -1,1 +1,1 @@
-# stripe_clone Projects
+# stripe_clone Project
